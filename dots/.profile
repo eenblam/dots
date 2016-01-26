@@ -24,4 +24,5 @@ fi
 if [ -d "$HOME/local/lib64" ] ; then
     export LD_LIBRARY_PATH="$HOME/local/lib64"
 fi
+
 export EDITOR=vim

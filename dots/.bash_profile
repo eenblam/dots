@@ -6,4 +6,6 @@ fi
 
 clear
 
+export EDITOR=vim
+
 # [[ -z $DISPLAY && $TERM = "linux" && `tty` = "/dev/tty1" ]] && exec bash
