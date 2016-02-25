@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# added by Miniconda3 3.19.0 installer
+export PATH="/home/ben/local/miniconda3/bin:$PATH"
