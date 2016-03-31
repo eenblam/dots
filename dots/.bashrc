@@ -122,3 +122,6 @@ fi
 if [ -f ~/.private_profile ]; then
     . ~/.private_profile
 fi
+
+# Security news
+dig +short -t txt istheinternetonfire.com
