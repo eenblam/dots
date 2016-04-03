@@ -1,4 +1,5 @@
 set runtimepath^=~/.vim
+execute pathogen#infect()
 syntax on
 filetype indent plugin on
 set sm
