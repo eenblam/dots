@@ -3,4 +3,4 @@ colors:
   description: blue
   usage: green
 platform: linux
-repo_directory: /home/ben/Documents
+repo_directory: /home/ben/Documents/tldr
