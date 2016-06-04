@@ -26,3 +26,4 @@ if [ -d "$HOME/local/lib64" ] ; then
 fi
 
 export EDITOR=vim
+xmodmap ~/.speedswapper
