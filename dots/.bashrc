@@ -13,9 +13,9 @@ case $- in
 esac
 
 # Runs tmux as shell
-#if which tmux 2>&1 >/dev/null; then
-#    test -z "$TMUX" && (tmux attach || tmux new-session)
-#fi
+if which tmux 2>&1 >/dev/null; then
+    test -z "$TMUX" && (tmux attach || tmux new-session)
+fi
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options

@@ -10,6 +10,8 @@
 
 alias st='stterm # -f <font name> -g <geometry>'
 
+alias vi='vim'
+
 alias upd='sudo apt-get update'
 alias upg='sudo apt-get update && sudo apt-get upgrade'
 alias purge='sudo apt-get purge'
