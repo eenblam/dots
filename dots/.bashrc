@@ -125,3 +125,5 @@ fi
 
 # Security news
 dig +short -t txt istheinternetonfire.com
+
+export PATH="/home/ing/miniconda2/bin:$PATH"
