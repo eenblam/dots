@@ -1,4 +1,5 @@
 set runtimepath^=~/.vim
+set hlsearch
 execute pathogen#infect()
 syntax on
 filetype indent plugin on
