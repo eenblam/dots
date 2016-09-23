@@ -4,6 +4,7 @@
 #alias w3m 'w3m-find-file $1'
 #alias clear recenter 0
 
+alias todo="grep TODO"
 
 # some more ls aliases
 # taken from the LinuxNoob forums
