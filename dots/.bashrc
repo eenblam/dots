@@ -126,8 +126,10 @@ fi
 # Security news
 dig +short -t txt istheinternetonfire.com
 
-export PATH="/home/ing/miniconda2/bin:$PATH"
-
 # Crouton seems to like ASCII a lot...
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
+
+export PATH="/home/ing/.miniconda2/bin:$PATH"
+# stack
+export PATH="/home/ing/.local/bin:$PATH"
