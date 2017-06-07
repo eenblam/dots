@@ -27,3 +27,5 @@ fi
 
 export EDITOR=vim
 xmodmap ~/.speedswapper
+
+export PATH="$HOME/.cargo/bin:$PATH"
