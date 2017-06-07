@@ -1,15 +1,4 @@
-## Emacs Aliases for Eshell
-#alias ll 'ls -l $*'
-#alias emacs '-nw --color=never find-file $1'
-#alias w3m 'w3m-find-file $1'
-#alias clear recenter 0
-
-
-# some more ls aliases
-# taken from the LinuxNoob forums
-
 alias st='stterm # -f <font name> -g <geometry>'
-
 alias vi='vim'
 
 alias upd='sudo apt-get update'
@@ -57,10 +46,6 @@ alias poweroff='sudo /sbin/poweroff'
 alias halt='sudo /sbin/halt'
 alias shutdown='sudo /sbin/shutdown'
 
-# alias to install iceweasel aurora - safe to remove after use
-#alias alpha='sudo apt-get update && sudo apt-get install -t experimental iceweasel'
-
-
 alias ls='ls -F --color=auto --group-directories-first'
 alias la='ls -A'
 alias ll='ls -l'
@@ -73,3 +58,4 @@ alias rd='rmdir -v'
 alias manb='man -H'
 
 alias links='links2'
+
