@@ -19,3 +19,5 @@ autocmd FileType go setlocal shiftwidth=4 tabstop=4
 set exrc
 set secure
 set ruler
+set number
+set relativenumber
