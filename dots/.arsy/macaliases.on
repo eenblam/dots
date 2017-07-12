@@ -1,0 +1,2 @@
+alias ls='/usr/local/bin/gls -F --color=auto --group-directories-first'
+alias rm='grm -Iv --preserve-root'

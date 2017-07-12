@@ -3,3 +3,7 @@
 
 # Security news
 dig +short -t txt istheinternetonfire.com
+
+echo gshuf -n 1 ~/reminders.md
+
+alias tasks="vim ~/tasks.md"

@@ -1,25 +1,31 @@
 alias st='stterm # -f <font name> -g <geometry>'
+alias brc='vim ~/.bashrc'
+alias pdb='python -m pdb'
+
+#### REFERENCE #### 
+alias manb='man -H'
+# Find todo's
+alias todo="grep -d skip TODO *"
+alias todor="grep -r TODO *"
+alias aliases="cat ~/.bash_aliases"
+alias reminder="gshuf -n 1 ~/reminders.md"
+alias reminders="cat ~/reminders.md"
+alias weather="curl wttr.in/Starkville"
+
+#### SHINY AND NEW ####
 alias vi='vim'
+alias links='links2'
 
-alias upd='sudo apt-get update'
-alias upg='sudo apt-get update && sudo apt-get upgrade'
-alias purge='sudo apt-get purge'
-alias brc='nano ~/.bashrc'
-alias search='apt-cache search'
-alias policy='apt-cache policy'
-alias depends='apt-cache depends'
-alias ins='sudo apt-get install'
-
-## Space on drive
+#### SPACE ON DRIVE ###
 alias disk='du -S | sort -n -r |more'
 
-# search
+#### SEARCH ####
 alias where="which"
 alias what="apropos"
 alias apr="apropos"
 alias ff="find . -type f -name"
 
-# navigation
+#### NAVIGATION ####
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -27,6 +33,9 @@ alias .....="cd ../../../../"
 alias ......="cd ../../../../.."
 alias fonts="cd /usr/share/fonts"
 alias scripts="cd $HOME/scripts"
+
+alias gorsc='cd ~/go/src/github.com/eenblam'
+alias b="cd ~/b"
 
 #### SAFETY ####
 alias rm='rm -Iv --preserve-root'
@@ -54,8 +63,3 @@ alias grep='grep --color=auto'
 
 alias md='mkdir -p -v'
 alias rd='rmdir -v'
-
-alias manb='man -H'
-
-alias links='links2'
-

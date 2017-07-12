@@ -1,3 +1,9 @@
+# Python/Virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 . /usr/local/bin/virtualenvwrapper.sh
+
+# Rust/Cargo
 . ~/.cargo/env
+
+# Go
+export GOPATH=$(go env GOPATH)
