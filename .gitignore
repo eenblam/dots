@@ -1,3 +1,4 @@
 dots/.lein/repl-history
 dots/.lein/repl-port
 dots/.vim/.netrwhist
+*.DS_Store
