@@ -7,7 +7,6 @@ alias manb='man -H'
 # Find todo's
 alias todo="grep -d skip TODO *"
 alias todor="grep -r TODO *"
-alias aliases="cat ~/.bash_aliases"
 alias reminder="gshuf -n 1 ~/reminders.md"
 alias reminders="cat ~/reminders.md"
 alias weather="curl wttr.in/Starkville"
@@ -34,7 +33,7 @@ alias ......="cd ../../../../.."
 alias fonts="cd /usr/share/fonts"
 alias scripts="cd $HOME/scripts"
 
-alias gorsc='cd ~/go/src/github.com/eenblam'
+alias gosrc='cd ~/go/src/github.com/eenblam'
 alias b="cd ~/b"
 
 #### SAFETY ####
