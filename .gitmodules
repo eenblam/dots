@@ -16,3 +16,6 @@
 [submodule "base16/base16-manager"]
 	path = base16/base16-manager
 	url = https://github.com/AuditeMarlow/base16-manager.git
+[submodule "dots/.vim/bundle/vim-airline"]
+	path = dots/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
