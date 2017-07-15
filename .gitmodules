@@ -13,3 +13,6 @@
 [submodule "fonts/FiraCode"]
 	path = fonts/FiraCode
 	url = https://github.com/tonsky/FiraCode.git
+[submodule "base16/base16-manager"]
+	path = base16/base16-manager
+	url = https://github.com/AuditeMarlow/base16-manager.git

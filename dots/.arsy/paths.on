@@ -7,3 +7,5 @@ export WORKON_HOME=$HOME/.virtualenvs
 
 # Go
 export GOPATH=$(go env GOPATH)
+
+export PATH="$HOME/dots/base16/base16-manager:$PATH"
