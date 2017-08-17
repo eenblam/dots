@@ -19,3 +19,15 @@
 [submodule "dots/.vim/bundle/vim-airline"]
 	path = dots/.vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "dots/.vim/bundle/ghcmod-vim"]
+	path = dots/.vim/bundle/ghcmod-vim
+	url = https://github.com/eagletmt/ghcmod-vim.git
+[submodule "dots/.vim/bundle/neco-ghc"]
+	path = dots/.vim/bundle/neco-ghc
+	url = https://github.com/eagletmt/neco-ghc.git
+[submodule "dots/.vim/bundle/syntastic"]
+	path = dots/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "dots/.vim/bundle/nerdtree"]
+	path = dots/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
