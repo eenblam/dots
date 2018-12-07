@@ -10,3 +10,4 @@ export GOPATH=$(go env GOPATH)
 
 export PATH="$HOME/dots/base16/base16-manager:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
