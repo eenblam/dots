@@ -1,0 +1,16 @@
+#!/bin/sh
+
+ENVS=~/Envs
+if [ ! -d "$ENVS" ]; then
+	# Nothing to do, not configured on this machine
+	echo $ENVS
+	return
+fi
+
+export WORKON_HOME=$ENVS
+FN=~/.local/bin/virtualenvwrapper.sh
+if [ -f "$FN" ]; then
+	# Not mine, no check
+	# shellcheck source=/dev/null
+	. $FN
+fi
