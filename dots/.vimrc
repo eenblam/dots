@@ -22,3 +22,9 @@ set secure
 set ruler
 set number
 set relativenumber
+
+" See edits from last saved buffer
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+          \ | wincmd p | diffthis
+endif
