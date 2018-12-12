@@ -1,3 +1,4 @@
+alias clip="xclip -i -sel clip"
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 alias st='stterm # -f <font name> -g <geometry>'
 alias brc='vim ~/.bashrc'
