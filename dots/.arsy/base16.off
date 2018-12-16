@@ -1,0 +1,3 @@
+#!/bin/sh
+# Base16
+export PATH="$HOME/dots/base16/base16-manager:$PATH"

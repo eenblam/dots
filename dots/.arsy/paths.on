@@ -1,13 +1,5 @@
-# Python/Virtualenv
-export WORKON_HOME=$HOME/.virtualenvs
-. /usr/local/bin/virtualenvwrapper.sh
-
-# Rust/Cargo
-. ~/.cargo/env
-
-# Go
-export GOPATH=$(go env GOPATH)
-
-export PATH="$HOME/dots/base16/base16-manager:$PATH"
+#!/bin/sh
+# Common install target
 export PATH="$HOME/.local/bin:$PATH"
+# Personal scripts 
 export PATH="$HOME/bin:$PATH"
