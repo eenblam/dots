@@ -1,17 +1,29 @@
+# Docker
+alias dcp='docker-compose'
+
+# Network
+alias ip='ip -c'
+alias ipwatch='watch -c -n 5 -- ip -c a'
+
+# Daily notes
+alias today='mkdir -p ~/today; vim ~/today/$(date +%Y-%m-%d-%A).md'
+
+# systemd-resolve was renamed to resolvectl, but it doesn't show up in some distros yet
+alias resolvectl='systemd-resolve'
+
 alias clip="xclip -i -sel clip"
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
 alias st='stterm # -f <font name> -g <geometry>'
 alias brc='vim ~/.bashrc'
 alias pdb='python -m pdb'
 
 #### REFERENCE #### 
+# Generate HTML from man and open in browser
 alias manb='man -H'
 # Find todo's
 alias todo="grep -d skip TODO *"
 alias todor="grep -r TODO *"
-alias reminder="gshuf -n 1 ~/reminders.md"
-alias reminders="cat ~/reminders.md"
-alias weather="curl wttr.in/Starkville"
 
 #### SHINY AND NEW ####
 alias vi='vim'
